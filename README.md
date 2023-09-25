@@ -1,7 +1,7 @@
 # Kbd_layout_raylib
 ## Features
   You can switch keyboard layout without edit function.
-  ```c
+  ```cpp
 int Kbd_GetKeyPressed(KBD_Layout layout);
 bool Kbd_IsKeyDown(KBD_Layout layout, int key);
 bool Kbd_IsKeyPressed(KBD_Layout layout, int key);
