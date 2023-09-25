@@ -71,7 +71,6 @@ int Kbd_GetKeyPressed(KBD_Layout layout)
 	int c = GetKeyPressed();
     bool shift = IsKeyDown(KEY_LEFT_SHIFT) || IsKeyDown(KEY_RIGHT_SHIFT);
     bool alt = IsKeyDown(KEY_LEFT_ALT) || IsKeyDown(KEY_RIGHT_ALT);
-    //if(c>0) printf("char %d\n",c);
     if(layout != EN)
     {
         for(int i=0;i<MAX_KEY;i++)
