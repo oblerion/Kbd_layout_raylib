@@ -13,4 +13,4 @@ and make your own layout.
 - belgian variant (complete)
 
 ## Problems
-there are some key can't be use with raylib (éèàç§ ...) 
+There are some key can't be use with raylib (éèàç§ ...) 
