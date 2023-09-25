@@ -8,7 +8,7 @@ bool Kbd_IsKeyPressed(KBD_Layout layout, int key);
   ```
 and make your own layout.
 ## Layout
-- qwerty (default)
+- qwerty
 - minimal azerty (qasd -> zqsd)
 - belgian variant (complete)
 
