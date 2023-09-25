@@ -6,7 +6,6 @@ int Kbd_GetKeyPressed(KBD_Layout layout);
 bool Kbd_IsKeyDown(KBD_Layout layout, int key);
 bool Kbd_IsKeyPressed(KBD_Layout layout, int key);
   ```
-and make your own layout.
 ## Layout
 - qwerty
 - minimal azerty (qasd -> zqsd)
