@@ -84,3 +84,40 @@ int Kbd_GetKeyPressed(KBD_Layout layout)
     }
 	return c;
 }
+
+bool Kbd_IsKeyDown(KBD_Layout layout, int key)
+{
+    if(layout!=EN)
+    {
+        for(int i=0;i<300;i++)
+        {
+            if(KBD_LAYOUT[layout][i][0]==key)
+            {
+                int c = KBD_LAYOUT[layout][i][1];
+                if(c>=97 && c<=122)
+                    return IsKeyDown(c-32);
+                else
+                    return IsKeyDown(c);
+            }
+        }
+    }
+    return IsKeyDown(key);
+}
+bool Kbd_IsKeyPress(KBD_Layout layout, int key)
+{
+    if(layout!=EN)
+    {
+        for(int i=0;i<300;i++)
+        {
+            if(KBD_LAYOUT[layout][i][0]==key)
+            {
+                int c = KBD_LAYOUT[layout][i][1];
+                if(c>=97 && c<=122)
+                    return IsKeyPressed(c-32);
+                else
+                    return IsKeyPressed(c);
+            }
+        }
+    }
+    return IsKeyPressed(key);
+}
