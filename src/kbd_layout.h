@@ -13,5 +13,5 @@ typedef enum KBD_Layout KBD_Layout;
 
 int Kbd_GetKeyPressed(KBD_Layout layout);
 bool Kbd_IsKeyDown(KBD_Layout layout, int key);
-bool Kbd_IsKeyPress(KBD_Layout layout, int key);
+bool Kbd_IsKeyPressed(KBD_Layout layout, int key);
 #endif

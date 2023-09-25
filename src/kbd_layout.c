@@ -105,7 +105,7 @@ bool Kbd_IsKeyDown(KBD_Layout layout, int key)
     }
     return IsKeyDown(key);
 }
-bool Kbd_IsKeyPress(KBD_Layout layout, int key)
+bool Kbd_IsKeyPressed(KBD_Layout layout, int key)
 {
     if(layout!=EN)
     {
