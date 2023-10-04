@@ -8,7 +8,7 @@ bool Kbd_IsKeyPressed(KBD_Layout layout, int key);
   ```
 ## Layout
 - qwerty
-- minimal azerty (qasd -> zqsd)
+- minimal azerty (wasd -> zqsd)
 - belgian variant (complete)
 
 ## Problems
