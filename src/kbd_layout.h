@@ -5,9 +5,10 @@
 
 enum KBD_Layout 
 {
-    EN=-1,//default
-    FR=0,
-    FR_BEL_VAR=1
+    EN_US=0,//default
+    EN_UK,
+    FR,
+    FR_BEL_VAR
 };
 typedef enum KBD_Layout KBD_Layout;
 
